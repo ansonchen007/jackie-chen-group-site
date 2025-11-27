@@ -1,3 +1,4 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
@@ -6,7 +7,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Jackie Chen Group Limited | Integrated Investment, Brand & F&B Partner",
-  description: "Jackie Chen Group is a Hong Kong–based platform combining investment, brand management, F&B ventures, advertising, technology outsourcing and consulting to support long-term growth.",
+  description:
+    "Jackie Chen Group is a Hong Kong–based platform combining investment, brand management, F&B ventures, advertising, technology outsourcing and consulting to support long-term growth.",
   icons: {
     icon: [
       { url: "/logo/favicon-16.png", sizes: "16x16", type: "image/png" },
@@ -17,10 +19,8 @@ export const metadata: Metadata = {
   },
 };
 
-
-export const runtime = 'edge';
-
-
+// ⭐ 全站使用 Edge Runtime（Cloudflare Pages 要求）
+export const runtime = "edge";
 
 export default function RootLayout({
   children,
@@ -32,9 +32,7 @@ export default function RootLayout({
       <body className="flex flex-col min-h-screen bg-gray-50 text-gray-900">
         <LanguageProvider>
           <Header />
-          <main className="flex-grow">
-            {children}
-          </main>
+          <main className="flex-grow">{children}</main>
           <Footer />
         </LanguageProvider>
       </body>
