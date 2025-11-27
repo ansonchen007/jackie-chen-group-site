@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+export const runtime = 'edge';
 import { notFound } from "next/navigation";
 import { newsPosts } from "@/data/newsPosts";
 import NewsDetailClient from "./NewsDetailClient";
