@@ -12,7 +12,7 @@ function TermsEN() {
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">1. About this site</h2>
         <p>
-          This website is operated by Jackie Chen Group Limited ("we", "us", "our"), a company established in Hong Kong. 
+          This website is operated by Jackie Chen Group Limited (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;), a company established in Hong Kong. 
           The site provides a high-level overview of the types of projects and partnerships we may work on. 
           It is intended for general information only.
         </p>
@@ -70,7 +70,7 @@ function TermsEN() {
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">6. No warranties</h2>
         <p>
-          The information on this site is provided on an "as is" and "as available" basis. While we aim to keep 
+          The information on this site is provided on an &quot;as is&quot; and &quot;as available&quot; basis. While we aim to keep 
           content accurate and current, we make no representations or warranties, express or implied, regarding:
         </p>
         <ul className="list-disc pl-5 space-y-1">
@@ -90,7 +90,7 @@ function TermsEN() {
         <ul className="list-disc pl-5 space-y-1">
           <li>Your access to or use of this site;</li>
           <li>Your reliance on any content or materials on this site;</li>
-          <li>Any delay, interruption, error or omission in the site's operation.</li>
+          <li>Any delay, interruption, error or omission in the site&apos;s operation.</li>
         </ul>
 
         <p>
@@ -102,7 +102,7 @@ function TermsEN() {
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">8. Governing law and jurisdiction</h2>
         <p>
           These Terms and any non-contractual obligations arising from them are governed by the laws of 
-          the Hong Kong Special Administrative Region ("Hong Kong").
+          the Hong Kong Special Administrative Region (&quot;Hong Kong&quot;).
         </p>
         <p>
           Any dispute arising out of or relating to this site or these Terms shall be subject to the exclusive 
@@ -113,7 +113,7 @@ function TermsEN() {
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">9. Changes to these Terms</h2>
         <p>
-          We may update these Terms from time to time. The "Last updated" date at the top indicates the latest version. 
+          We may update these Terms from time to time. The &quot;Last updated&quot; date at the top indicates the latest version. 
           By continuing to use this site after updates, you are deemed to accept the revised Terms.
         </p>
       </section>
@@ -142,7 +142,7 @@ function TermsZH() {
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">1. 关于本网站</h2>
         <p>
-          本网站由 Jackie Chen Group Limited（"本公司"、"我们"）运营，注册地位于香港。本网站仅以概括方式介绍我们可能参与的项目类型及合作方式，
+          本网站由 Jackie Chen Group Limited（&quot;本公司&quot;、&quot;我们&quot;）运营，注册地位于香港。本网站仅以概括方式介绍我们可能参与的项目类型及合作方式，
           供有兴趣的机构了解，并不构成向公众作出的任何形式之要约、邀请、建议或招揽。
         </p>
         <p>
@@ -195,7 +195,7 @@ function TermsZH() {
 
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">6. 免责声明</h2>
-        <p>本网站按"现状"及"可得"基础提供。本公司不对以下事项作出任何明示或暗示保证：</p>
+        <p>本网站按&quot;现状&quot;及&quot;可得&quot;基础提供。本公司不对以下事项作出任何明示或暗示保证：</p>
 
         <ul className="list-disc pl-5 space-y-1">
           <li>资料的准确性、完整性或及时性；</li>
@@ -220,14 +220,14 @@ function TermsZH() {
 
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">8. 适用法律及管辖</h2>
-        <p>本《使用条款》及相关非合约义务受香港特别行政区（"香港"）法律管辖并按其解释。</p>
+        <p>本《使用条款》及相关非合约义务受香港特别行政区（&quot;香港&quot;）法律管辖并按其解释。</p>
         <p>因本网站或本条款引起之争议，均由香港法院专属管辖。</p>
       </section>
 
       <section className="space-y-3 pb-4">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">9. 条款之修改</h2>
         <p>
-          我们可能不时更新本《使用条款》。页面顶部的"最后更新日期"显示最新版本。您在更新后继续使用本网站，即代表您接受更新后的条款。
+          我们可能不时更新本《使用条款》。页面顶部的&quot;最后更新日期&quot;显示最新版本。您在更新后继续使用本网站，即代表您接受更新后的条款。
         </p>
       </section>
 

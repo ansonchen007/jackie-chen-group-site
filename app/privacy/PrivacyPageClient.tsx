@@ -178,7 +178,7 @@ function PrivacyContentZH() {
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">1. 引言</h2>
         <p>
-          本网站由 Jackie Chen Group Limited（"本公司"、"我们"）运营。我们是一家立足香港的平台型公司，主要通过本网站分享在投资相关项目、品牌管理、餐饮概念、广告、技术外包及商业咨询等方面的经验与案例，并不针对公众作任何形式的公开邀约。
+          本网站由 Jackie Chen Group Limited（&quot;本公司&quot;、&quot;我们&quot;）运营。我们是一家立足香港的平台型公司，主要通过本网站分享在投资相关项目、品牌管理、餐饮概念、广告、技术外包及商业咨询等方面的经验与案例，并不针对公众作任何形式的公开邀约。
         </p>
         <p>
           本《隐私政策》以概括方式说明我们在您浏览本网站或与我们联络时，如何收集、使用及保护个人资料。本政策仅为一般性说明，并不构成任何合约或专业意见。
@@ -207,7 +207,7 @@ function PrivacyContentZH() {
           <li>运营、维护及改进本网站，包括安全监控及性能分析；</li>
           <li>遵守香港或其他相关司法管辖区适用的法律及监管要求。</li>
         </ul>
-        <p>我们不会利用本网站进行对自然人具有法律或类似重大影响的自动化决策或"画像"分析。</p>
+        <p>我们不会利用本网站进行对自然人具有法律或类似重大影响的自动化决策或&quot;画像&quot;分析。</p>
       </section>
 
       <section className="space-y-3">
@@ -220,7 +220,7 @@ function PrivacyContentZH() {
 
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">5. 资料的披露与跨境传输</h2>
-        <p>在符合适用法律及"知情需要"原则的前提下，我们可能会向下列对象披露个人资料：</p>
+        <p>在符合适用法律及&quot;知情需要&quot;原则的前提下，我们可能会向下列对象披露个人资料：</p>
         <ul className="list-disc pl-5 space-y-1">
           <li>与我们有长期合作关系的集团实体或项目伙伴；</li>
           <li>为我们提供专业意见的顾问（例如律师、会计师、税务顾问等）；</li>
@@ -269,7 +269,7 @@ function PrivacyContentZH() {
       <section className="space-y-3">
         <h2 className="font-semibold text-gray-900 text-base md:text-lg">10. 本政策之更新</h2>
         <p>
-          我们可能不时修订本《隐私政策》，以反映业务安排、法律要求或操作上的变化。页面顶部的"最后更新日期"将显示最新版本。您在政策更新后继续使用本网站，即被视为已接受更新后的政策。
+          我们可能不时修订本《隐私政策》，以反映业务安排、法律要求或操作上的变化。页面顶部的&quot;最后更新日期&quot;将显示最新版本。您在政策更新后继续使用本网站，即被视为已接受更新后的政策。
         </p>
       </section>
 
