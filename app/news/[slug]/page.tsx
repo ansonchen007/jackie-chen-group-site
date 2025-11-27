@@ -1,30 +1,26 @@
-import type { Metadata } from "next";
-export const runtime = 'edge';
-import { notFound } from "next/navigation";
-import { newsPosts } from "@/data/newsPosts";
-import NewsDetailClient from "./NewsDetailClient";
+// app/news/[slug]/page.tsx
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const post = newsPosts.find((p) => p.slug === slug);
+import { notFound } from 'next/navigation';
+import { newsPosts } from '@/data/newsPosts';
+import NewsDetailClient from './NewsDetailClient';
 
-  if (!post) {
-    return {
-      title: "Article Not Found — Jackie Chen Group Limited",
-    };
-  }
+// 明确告诉 Next：这个路由强制静态生成
+export const dynamic = 'force-static';
 
-  return {
-    title: `${post.excerptEn.split('.')[0]} — Jackie Chen Group Limited`,
-    description: `${post.excerptEn} ${post.excerptZh}`,
-  };
+// 为所有新闻生成静态路径
+export function generateStaticParams() {
+  return newsPosts.map((post) => ({
+    slug: post.slug,
+  }));
 }
 
-export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const post = newsPosts.find((p) => p.slug === slug);
+// 不再给 props 强类型，避免 PageProps 约束冲突
+export default function NewsDetailPage({ params }: any) {
+  const post = newsPosts.find((item) => item.slug === params.slug);
 
-  if (!post) return notFound();
+  if (!post) {
+    notFound();
+  }
 
   return <NewsDetailClient post={post} />;
 }
